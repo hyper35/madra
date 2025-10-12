@@ -40,6 +40,7 @@ jobs:
           cp madra_logo.png dist/ || true
           cp madra_mail.png dist/ || true
           cp madra_tel.png dist/ || true
+          cp favicon.png dist/ || true
           cp *.webp dist/ || true
 
           echo "✅ Files prepared for deployment"
