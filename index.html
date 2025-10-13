@@ -50,16 +50,26 @@
     }
 
     .logo {
-      width: clamp(160px, 48vw, 220px);
-      margin: 0 auto clamp(12px, 3vw, 20px);
-      background: #fafafa;
+      aspect-ratio: 3025 / 1845;
+      width: clamp(160px, 48vw, 240px);  
+      background: #fafafa;              
       border-radius: 20px;
-      display: grid;
-      place-items: center;
+      overflow: hidden;                 
       box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-      padding: clamp(6px, 1.5vw, 10px);
+      margin: 0 auto clamp(12px, 3vw, 20px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;                        
     }
-    .logo img { width: 100%; height: auto; border-radius: 14px; }
+
+    .logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;               
+      border-radius: 0;                 
+      display: block;
+    }
 
     .title {
       font-weight: 800;
