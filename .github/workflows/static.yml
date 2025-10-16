@@ -37,11 +37,13 @@ jobs:
           cp index.html dist/index.html
 
           # 2️⃣ Logoları da dist içine taşı (gerekiyorsa)
-          cp madra_logo.png dist/ || true
-          cp madra_mail.png dist/ || true
-          cp madra_tel.png dist/ || true
+          cp madra_logo.svg dist/ || true
+          cp madra_mail.svg dist/ || true
+          cp madra_tel.svg dist/ || true
           cp favicon.png dist/ || true
           cp *.webp dist/ || true
+          
+          cp styles.css dist/ || true
 
           echo "✅ Files prepared for deployment"
 
