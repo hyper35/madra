@@ -41,6 +41,7 @@ jobs:
           cp madra_mail.svg dist/ || true
           cp madra_tel.svg dist/ || true
           cp favicon.png dist/ || true
+          cp favicon.ico dist/ || true
           cp *.webp dist/ || true
           
           cp styles.css dist/ || true
