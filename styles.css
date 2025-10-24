@@ -87,7 +87,7 @@ body {
   max-width: 520px;
   color: #222;
   font-size: clamp(14px, 4.2vw, 17px);
-  font-weight: 600;
+  font-weight: 400;
   list-style-position: outside;
 }
 .bullets li {
